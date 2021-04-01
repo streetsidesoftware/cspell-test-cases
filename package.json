@@ -1,0 +1,15 @@
+{
+  "name": "moist",
+  "version": "1.0.0",
+  "description": "Illustrates an issue documented at https://github.com/streetsidesoftware/cspell/issues/1114",
+  "main": "index.js",
+  "repository": "git@github.com:roydukkey/moist.git",
+  "author": "roydukkey <contact@changelog.me>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx cspell --config './.vscode/cSpell.json' '**/{.*/**/,.*/**/.,,.}*'"
+  },
+  "dependencies": {
+    "clean-package": "^1.0.1"
+  }
+}

@@ -1,4 +1,8 @@
-# cspell-test-cases
-Some integration tests for cspell
+# CSpell Bug
 
-Note: each test is in its own branch.
+Illustrates an issue documented at https://github.com/streetsidesoftware/cspell/issues/1114
+
+Copied from https://github.com/roydukkey/moist/tree/cspell/1114
+
+
+`cspell --config ./.vscode/cSpell.json '**/{.*/**/,.*/**/.,,.}*'`
